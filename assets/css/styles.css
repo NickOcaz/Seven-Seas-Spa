@@ -1,5 +1,5 @@
 body {
-    background-color: gold;
+    background-color:#fff;
 }
 
 .navbar-nav .nav-link {
@@ -8,7 +8,7 @@ body {
 
 /* styles.css */
 .hero {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,8 +42,24 @@ h5 {
 }
 
 .main-content {
-    margin-top: 70vh;
+    margin-top: 90vh;
     background-color: #ffffff;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #6f4e37;
+    color:#ffebd4
+}
+
+footer a {
+  
+    color:#ffebd4
+}
+
